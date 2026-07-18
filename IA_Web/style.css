@@ -1,22 +1,24 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #04233F;
 }
 
-div {
-    background-color: #04233F;
+header {
     color:aliceblue;
     padding: 20px;
     padding-bottom: 5px;
 }
 
+/* Estilo para a imagem do logo */
 .logo {
     display: block;
     margin-right: auto;
     margin-left: auto;
 }
 
- div h2 {
+/* Estilo para titulo */
+header h2 {
     text-align: center;
     color: #1190ff;
     font-size: 35px;
@@ -24,21 +26,25 @@ div {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/* Estilo para a seção da navegação */
 nav {
-    background-color: #063055;
     padding: 10px;
+    background-color: #0a375f;
 }
-
+/* Estilo para o menu de navegação */
 .menu {
     display: flex;
     justify-content: center;
     padding: 0;
 }
 
+/* Estilo para os itens do menu */
 ul li {
     list-style-type: none;
     margin: 0 50px;
 }
+
+/* Estilo de syle para as letras do menu */
  ul li a {
     color: #2981cf;
     font-size: 25px;
@@ -46,10 +52,66 @@ ul li {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  }
 
- a:hover {
+ .menu a:hover {
     color: white;
  }
 
- 
+ /*conteudo do menu */
+section {
+    background-color: #05192a;
+    padding: 20px;
+}
 
+.card {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #09213b;
+    border-radius: 15px;
+    padding: 50px 50px;
+    text-align: center;
+}
 
+.card p {
+    font-size: 20px;
+    color: #2572b6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card strong {
+    color: white;
+}
+
+.bt_botao {
+    background-color: #0b2847;
+    text-align: center;
+    padding: 50px;
+    font-size: 40px;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.bt_botao a {
+    display: block;
+    width: 250px;
+    padding: 15px;
+    margin: 20px auto;
+    background-color: #1c66b5;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+
+.bt_botao a:hover {
+    color: black;
+    background-color: white;
+}
+
+footer {
+    background-color: #02111f;
+    padding: 60px;
+    text-align: center;
+    color: gray;
+}
